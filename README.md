@@ -1,4 +1,5 @@
-# Linear-Algebra- Chapter 1. Matrices & Gaussian Elimination
+# Linear-Algebra
+# Chapter 1. Matrices & Gaussian Elimination
 
 우리는 기하공간을 두 가지 관점으로 바라볼 수 있다.
 
