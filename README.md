@@ -14,16 +14,16 @@ are the rows), a matrix, or an augmented matrix by using elementary row operatio
 Forward elimination (전진소거법)
 1. Start with the first row.
 2. Excluding all rows before the current row, in the leftmost nonzero column,
-make the entry in the current row nonzero by switching rows as 
-necessary. (Type 1 operation) The pivot is the first nonzero in the current row, the 
-row that does the elimination. 
-3. Make all numbers below the pivot zero. To make the entry aik in the ith row 0, 
-subtract row j times the multiplier 
-from row i. This corresponds to 
-multiplication by a type 3 elementary matrix .
-4. Move on to the next row, and repeat until only zero rows remain (or rows are 
-exhausted).
+make the entry in the current row nonzero by switching rows as necessary. 
+The pivot is the first nonzero in the current row, the row that does the elimination. 
+3. Make all numbers below the pivot zero.
+4. Move on to the next row, and repeat until only zero rows remain.
 Backward-substitution (후방대입법)
 5. Work upward, beginning with the last nonzero row, and add multiples of each row to the rows above to create zeros in the pivot column. When working with equations, 
 this is essentially substituting the value of the variable into earlier equations.
 6. Repeat for each preceding row except the first.
+
+## LU 분해: 하삼각행렬과 상삼각행렬로 행렬 분해.
+-왜 LU 분해일까? 
+ -더 빠른 행렬계산을 하려고
+BUT!! 모든 행렬이 LU분해 가능하지 않다. 따라서 치환행렬 P를 사용하여, LU 분해가능하게 한다.(PA=LU)
