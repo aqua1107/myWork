@@ -1,2 +1,2 @@
 # Miscellaneous
-This is my playground such as learning Algorithms, Progamming Languages and other Computer Science materials.
+This is my playground such as learning Algorithms, Progamming, Machine Learning and Deep Learning and other Computer Science materials.
