@@ -1,0 +1,1 @@
+This is my first mini project in Object-Oriented Programming in Java. Its topic is similar to the mini-project 1 in OOP in Python. But rather than using a list in Python, Java uses an array, which is more difficult than Python to build the program.
