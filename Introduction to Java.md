@@ -161,4 +161,71 @@ IP address: An identifier to locate one another on the Internet.
    <td>Low-level memory management, STL (Standard Template Library)</td>
    <td>Refactor for better performance, memory efficiency (e.g., optimizing algorithms, using smart pointers)</td>
   </tr>
+ <tr>
+  <td rowspan="2">Databases</td>
+  <td>SQL</td>
+  <td>Structured Query Language for interacting with relational databases</td>
+  <td>Data Definition Language (DDL), Data Manipulation Language (DML), Joins, Indexes</td>
+  <td>Refactor for better query performance (e.g., creating indexes, optimizing joins, using stored procedures)</td>
+ </tr>
+ <tr>
+  <td>NoSQL</td>
+  <td>Non-relational databases for flexible data storage</td>
+  <td>Document databases (MongoDB), Key-value stores (Redis), Graph databases (Neo4j)</td>
+  <td>Refactor for scalability, data consistency (e.g., choosing the right NoSQL type for the use case, implementing appropriate data partitioning)</td>
+ </tr>
+ <tr>
+  <td rowspan="2">Web Development</td>
+  <td>HTML</td>
+  <td>Defines the structure and content of web pages</td>
+  <td>Semantic HTML, accessibility</td>
+  <td>Refactor for better readability, maintainability, and accessibility (e.g., using meaningful element names, adding ARIA attributes)</td>
+ </tr>
+ <tr>
+  <td>CSS</td>
+  <td>Styles the appearance of web pages</td>
+  <td>CSS preprocessors (Sass, Less), CSS frameworks (Bootstrap, Materialize)</td>
+  <td>Refactor for better maintainability, modularity (e.g., using CSS Modules, BEM naming convention)</td>
+ </tr>
+ <tr>
+  <td>Cloud Computing</td>
+  <td>AWS</td>
+  <td>Amazon Web Services, a suite of cloud computing services</td>
+  <td>EC2 (virtual machines), S3 (object storage), Lambda (serverless computing)</td>
+  <td>Refactor for cost optimization, performance improvement, security enhancement (e.g., right-sizing instances, optimizing Lambda functions)</td>
+ </tr>
+ <tr>
+  <td rowspan="2">Mobile Development</td>
+  <td>iOS</td>
+  <td>Apple's mobile operating system</td>
+  <td>Swift (modern language), Objective-C (legacy language), UIKit (framework)</td>
+  <td>Refactor for better app performance, user experience (e.g., optimizing image loading, using caching mechanisms)</td>
+ </tr>
+ <tr>
+  <td>Android</td>
+  <td>Google's mobile operating system</td>
+  <td>Java, Kotlin (modern language), Android SDK</td>
+  <td>Refactor for better app performance, user experience (e.g., optimizing layout performance, using background threads)</td>
+ </tr>
+ <tr>
+  <td>Data Science</td>
+  <td>Machine Learning</td>
+  <td>Algorithms that enable computers to learn from data</td>
+  <td>Supervised learning (classification, regression), Unsupervised learning (clustering), Deep learning (neural networks)</td>
+  <td>Refactor for better model performance, interpretability (e.g., feature engineering, hyperparameter tuning, model simplification)</td>
+ </tr>
+ <tr>
+  <td>Software Development Methodologies</td>
+  <td>Agile</td>
+  <td>Iterative approach with flexibility and customer collaboration</td>
+  <td>Scrum, Kanban</td>
+  <td>Refactor within sprints, continuous integration/continuous delivery (CI/CD)</td>
+ </tr>
+ <tr>
+  <td>Software Development Principles</td>
+  <td>SOLID</td>
+  <td>Principles for writing clean, maintainable, and extensible code</td>
+  <td>Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle 1</td>
+  <td>Refactor to adhere to SOLID principles, improve code quality and maintainability</td>
+ </tr>
 </table>
