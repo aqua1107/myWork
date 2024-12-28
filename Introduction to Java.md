@@ -55,3 +55,41 @@ Importance of Data Hierarchy:
 Visualization:
 
 ![스크린샷 2024-12-28 214134](https://github.com/user-attachments/assets/6862e7df-65f3-4503-bc15-ee9ce963330d)
+
+
+ - Machine language: the most basic level, directly understood by the computer.
+ - Assembly language: a step up, using mnemonics for better readability.
+ - High-level language: the most abstract, offering the highest level of abstraction for human programmers.
+
+## Object Technology
+
+- Class: blueprint of making an object.
+- Object: reusable SW component. 
+- Method: performing  a task in a program(function)
+- Instantiation: object made by a specific class with its methods. This object is called an instance.
+- Attribute: a characteristic or property associated with an object or a class. It's essentially a variable that holds data specific to an object or a class.
+- Encapsulation by a class
+- Inheritance: the subclass starts with the characteristics of an existing class called superclass.
+- Interfaces: collections of related methods that enable them to tell objects what to do. (It implements one or more interfaces.)
+
+
+## Unified Modeling Language(UML)
+Unified Modeling Language(UML): A general-purpose visual modeling language that is intended to provide a standard way to visualize the design of a system.
+
+## Operating System (OS)
+The OS is like the driver and the traffic controller of a computer.
+Key Roles of the OS:
+1. Manages Hardware:
+ - Communicates with all the parts of your computer (CPU, RAM, hard drive, mouse, keyboard, etc.).
+ - Allocates resources like CPU time and memory to different programs.
+ - Handles input/output operations (like when you type or click).
+2. Provides a User Interface:
+ - Gives you a way to interact with the computer (like the Windows desktop or the macOS interface).
+ - Lets you run programs and manage files.
+3. Manages Software:
+ - Loads and executes programs.
+ - Provides a platform for other software to run on.
+ - Handles memory management for programs.
+4. Ensures Security:
+ - Protects your computer from viruses and malware.
+ - Controls access to your files and data.
