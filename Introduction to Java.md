@@ -93,3 +93,72 @@ Key Roles of the OS:
 4. Ensures Security:
  - Protects your computer from viruses and malware.
  - Controls access to your files and data.
+
+## Keyword for OS
+
+- Kernel: The core part of the OS that directly interacts with the HW.
+- Processes: Running programs on the computer.
+- Threads: Smaller units within a process that can run concurrently.
+- File Systems: How the OS organizes and stores files on your storage devices.
+- Virtual Memory: How the OS manages memory to make it appear larger than physical RAM.
+
+# Internet and World Wide Web
+
+TCP(Transmission Control Protocol): connected-oriented, meaning that sender and receiver firstly need to establish a connection based on agreed parameters.
+The <b>Internet protocol suite</b>, commonly known as <b>TCP/IP</b>, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria.
+
+## Internet
+Internet: networks for both intraorganizational and interorganizational communication.
+
+
+IP address: An identifier to locate one another on the Internet.
+
+![image](https://github.com/user-attachments/assets/b5f7f34c-d8fa-46a2-8008-311a2ff69dac)
+
+(source: https://mr-zero.tistory.com/36)
+
+### WWW(World Wide Web): collection of HW and SW related to the Internet that allow users to locate and view documents.
+### IoT(Internet of Things): The Internet of Things (IoT) refers to a network of physical devices, vehicles, appliances, and other physical objects that are embedded with sensors, software, and network connectivity, allowing them to collect and share data.
+
+# Categories about SW Technologies
+
+<table>
+ <tr>
+   <th>Category</th>
+   <th>Technology</th>
+   <th>Description</th>
+   <th>Key Concepts & Examples</th>
+   <th>Refactoring Considerations</th>
+  </tr>
+  <tr>
+   <td rowspan="5">Programming Languages</td>
+   <td>Python</td>
+   <td>High-level, versatile language known for readability and extensive libraries</td>
+   <td>Object-Oriented Programming (OOP), Functional Programming, Data Structures (lists, dictionaries), Libraries (NumPy, Pandas, TensorFlow)</td>
+   <td>Refactor for better readability, maintainability, performance (e.g., using list comprehensions, optimizing loops)</td>
+  </tr>
+  <tr>
+   <td>JavaScript</td>
+   <td>Primarily for front-end web development, also used for back-end and mobile.</td>
+   <td>Asynchronous programming, DOM manipulation, popular frameworks (React, Angular, Vue.js)</td>
+   <td>Refactor for better performance, code reusability (e.g., breaking down large functions, using functional components)</td>
+  </tr>
+  <tr>
+   <td>Java</td>
+   <td>Robust, platform-independent language for enterprise applications and Android</td>
+   <td>OOP, JVM (Java Virtual Machine), Spring Framework (popular for enterprise development)</td>
+   <td>Refactor to improve modularity, reduce code duplication (e.g., using design patterns like Dependency Injection)</td>
+  </tr>
+  <tr>
+   <td>C#</td>
+   <td>Microsoft-developed language for Windows applications, game development, and .NET</td>
+   <td>OOP, .NET Framework (ecosystem of libraries and tools), Unity (game engine)</td>
+   <td>Refactor to enhance performance, improve code readability (e.g., using LINQ for data querying)</td>
+  </tr>
+  <tr>
+   <td>C++</td>
+   <td>High-performance language for systems programming, game development, and performance-critical applications</td>
+   <td>Low-level memory management, STL (Standard Template Library)</td>
+   <td>Refactor for better performance, memory efficiency (e.g., optimizing algorithms, using smart pointers)</td>
+  </tr>
+</table>
