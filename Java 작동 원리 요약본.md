@@ -102,9 +102,15 @@ intArray[0] = 10; //NullPointerException
 - Example 2
 String str = null; str은 null 값을 가지므로 length 등의 함수를 사용할 수 없다. //NullPointerException
 
-## 문자열 리터럴과 배열과 JVM 메모리와의 관걔 시각화  
+## 문자열 리터럴과 배열과 JVM 메모리와의 관계 시각화  
 
 ![20241229_140402](https://github.com/user-attachments/assets/7a4230c8-f31d-436b-a29b-ce7b1def0a2a)
 
+## 배열
+배열: 복수의 동일한 자료형의 변수를 묶어놓은 자료구조
 
+### 배열 요약 시각화
 
+![image](https://github.com/user-attachments/assets/9c07498f-4035-45aa-a173-96c0b0fd04da)
+
+![20241229_160014](https://github.com/user-attachments/assets/18840540-f0d9-4350-bbc4-9c26728c8641)
