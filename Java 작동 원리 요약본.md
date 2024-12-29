@@ -17,14 +17,14 @@
 2. Execution Engine: Class Loader를 통해 JVM 안의 Runtime Data Area에 배치된 바이트코드들을 명령어 단위로 읽어 실행.
 3. Garbage Collector: Heap Memory Area에 만들어진 객체들 중에 참조되지 않은 객체들을 탐색 후 제거하는 역할을 함.
 4. Runtime Data Area: JVM의 메모리 영역. 자바 실헹 시 사용되는 데이터들을 쌓는 영역.
-- I. Static Area: 모든 스레트가 공유하는 메모리 영역(class, interface, method, field, static variable 등의 바이트코드를 보관.
-- II. Heap Area: 객체와 배열아 생성되는 영역
-- III. Stack Area: method 호출할 때마다 Stack Frame 생성.(즉, method 안의 값들을 저장) method 수행 종료 시 Frame별로 삭제.
+- I. Static Area: 모든 스레트가 공유하는 메모리 영역(class, interface, method, field, static variable 등의 바이트코드를 보관)
+- II. Heap Area: 객체와 배열이 생성되는 영역
+- III. Stack Area: method 호출할 때마다 Stack Frame 생성.(즉, method 안의 값들을 저장) Method 수행 종료 시 Frame별로 삭제.
 - IV. PC Register: 스레드 시작 시 생성. 스레드 관련 기록함.(수행중인 JVM 명령의 주소를 갖음.)
 - V. Native Method Stack: 다른 언어로 작성된 코드를 위한 메모리 영역
 
 ## JVM의 주요 특징
--->자바의 메모리 관리를 자동으로 해줌.
+자바의 메모리 관리를 자동으로 해줌.
 
 ## 인터페이스
 인터페이스: 소프트웨어 간 접촉, 공통되는 부분(접속, 연결)
@@ -43,7 +43,7 @@
 
 ## Method
 
-method: 특정한 작업을 수행하는 코드의 묶음
+Method: 특정한 작업을 수행하는 코드의 묶음
 
 
 시각화:
@@ -77,3 +77,34 @@ method: 특정한 작업을 수행하는 코드의 묶음
 ## 타입분류
 
 ![image](https://github.com/user-attachments/assets/5980497f-d708-409d-be5f-27085ce58190)
+
+## 변수의 메모리 사용
+
+- 기본 타입 변수: 실제값을 변수안에 저장
+- 참조 타입 변수: 주소를 통해 객체 참조
+
+## Null
+
+- 객체없음: 초기값 사용가능
+- 참조타입의 변수에만 저장가능
+- Null로 초기화된 참조변수는 stack area에서 생성
+
+![스크린샷 2024-12-29 135239](https://github.com/user-attachments/assets/840d71d8-3465-4f82-930e-333e093ad58b)
+
+## NullPointerException
+### 예외: 사용자의 잘못된 조작이나 잘못된 코딩으로 인해 발생하는 프로그램 오류
+NullPointerException의 예시:
+- Example 1
+int[] intArray = null;
+intArray[0] = 10; //NullPointerException
+<br> 예외 발생 이유: 배열(Array)은 초기에 지정하기 때문에(메모리 할당 필수)
+
+- Example 2
+String str = null; str은 null 값을 가지므로 length 등의 함수를 사용할 수 없다. //NullPointerException
+
+## 문자열 리터럴과 배열과 JVM 메모리와의 관걔 시각화  
+
+![20241229_140402](https://github.com/user-attachments/assets/7a4230c8-f31d-436b-a29b-ce7b1def0a2a)
+
+
+
