@@ -14,4 +14,4 @@ I'm annotating both Korean, and English.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/PyTorch_logo_black.svg/488px-PyTorch_logo_black.svg.png">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/260px-Scikit_learn_logo_small.svg.png">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/320px-TensorFlow_logo.svg.png">
-![pngwing com](https://github.com/user-attachments/assets/ef3a3df3-a8ca-4830-82e8-725795a9aebe)
+![pngwing com](https://github.com/user-attachments/assets/cff7f880-fb36-4c80-872d-67b7b5ce3dc1)
